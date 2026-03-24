@@ -1,4 +1,4 @@
-# Business Plan Requirements – IT Enabled Services (ITES) Company
+# Business Plan Requirements – TechSprint
 
 ## Overview
 I am looking for a business plan for an IT Enabled Services (ITES) company. The following are the attributes and requirements.
