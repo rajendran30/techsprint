@@ -32,8 +32,8 @@ TechSprint/
   - Cloud Engineering & FinOps Consulting (marked as popular)
   - Web Development
   - Digital Marketing
-  - Zoho Books Services
-  - Shopify Services
+  - Accounting & Bookkeeping Solutions
+  - E-commerce Solutions
 - Each service includes:
   - Detailed description
   - What is offered (key features)
@@ -134,8 +134,8 @@ TechSprint/
    - Cloud Engineering & FinOps Consulting
    - Web Development
    - Digital Marketing
-   - Zoho Books Services
-   - Shopify Services
+   - Accounting & Bookkeeping Solutions
+   - E-commerce Solutions
 3. **CTA** - Contact and return-to-home
 4. **Footer** - Consistent footer
 
