@@ -5,7 +5,7 @@ A professional, responsive website layout for ITES (IT Enabled Services) company
 ## File Structure
 
 ```
-ITES-Business/
+TechSprint/
 ├── index.html          # Main homepage
 ├── services.html       # Detailed services page
 ├── styles.css          # Global styling and responsive design
@@ -20,19 +20,20 @@ ITES-Business/
 #### 1. **index.html** - Homepage
 - Eye-catching hero section with call-to-action buttons
 - Key highlights of the company (4 main points)
-- Service overview cards with links to detailed pages
-- Competitive comparison section
-- Team introduction with expertise areas
-- Transparent pricing for all three markets
+- Service overview cards with links to detailed pages (6 services)
+- Experience highlight showcasing team expertise
+- Competitive comparison section (Capability and Reliability)
 - Contact form section
 - Footer with links
 
 #### 2. **services.html** - Detailed Services Page
-- Comprehensive view of all 4 services:
-  - IT Maintenance & Support
-  - Application Change Management
-  - FinOps Consulting (marked as popular)
-  - Cloud Engineering Consulting
+- Comprehensive view of all 6 services:
+  - Managed Services
+  - Cloud Engineering & FinOps Consulting (marked as popular)
+  - Web Development
+  - Digital Marketing
+  - Zoho Books Services
+  - Shopify Services
 - Each service includes:
   - Detailed description
   - What is offered (key features)
@@ -120,22 +121,21 @@ ITES-Business/
 1. **Navigation** - Sticky header with logo and navigation
 2. **Hero** - Main value proposition with CTA
 3. **Highlights** - 4 key company benefits
-4. **Services** - Overview of 4 main service offerings
-5. **Why Us** - Comparison table vs. competitors
-6. **Team** - Company leadership introduction
-7. **Expertise** - Technical skills and capabilities
-8. **Pricing** - Market-specific pricing information
-9. **CTA** - Call-to-action for assessments
-10. **Contact** - Contact form and office information
-11. **Footer** - Links, social media, copyright
+4. **Services** - Overview of 6 main service offerings
+5. **Why Us** - Experience highlight and comparison table vs. competitors
+6. **CTA** - Call-to-action for assessments
+7. **Contact** - Contact form and office information
+8. **Footer** - Links, social media, copyright
 
 ### Services Page Sections:
 1. **Page Header** - Service page title
-2. **Service Details** (4 sections)
-   - IT Support & Maintenance
-   - Application Change Management
-   - FinOps Consulting
-   - Cloud Engineering Consulting
+2. **Service Details** (6 sections)
+   - Managed Services
+   - Cloud Engineering & FinOps Consulting
+   - Web Development
+   - Digital Marketing
+   - Zoho Books Services
+   - Shopify Services
 3. **CTA** - Contact and return-to-home
 4. **Footer** - Consistent footer
 
