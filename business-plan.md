@@ -24,11 +24,11 @@
 
 ## 1. Executive Summary
 
-This business plan outlines the formation and growth strategy for an IT Enabled Services (ITES) company headquartered in **Chennai, Tamil Nadu, India**. The company provides IT maintenance and support, application change management, FinOps consulting, cloud engineering consulting, and web development to **small and medium-sized businesses (SMBs)** across **India, Australia, and the Middle East**.
+This business plan outlines the formation and growth strategy for an IT Enabled Services (ITES) company headquartered in **Chennai, Tamil Nadu, India**. The company provides IT maintenance and support, application change management, FinOps consulting, cloud engineering consulting, web development, accounting and bookkeeping services, and e-commerce platform solutions (Shopify, WooCommerce, BigCommerce, Magento, and more) to **small and medium-sized businesses (SMBs)** across **India, Australia, and the Middle East**.
 
 Founded by **four partners** — three investing partners located in India, Dubai, and Australia respectively, and one operations partner (Person-A) based in Chennai who manages day-to-day operations and leads FinOps consulting with a sweat equity stake — the company leverages India's cost advantage, a skilled talent pool in Chennai's thriving IT corridor, and the investing partners' regional presence to acquire and serve clients across three geographies.
 
-The company provides **five complementary service lines**: IT Maintenance & Support, Application Change Management, FinOps Consulting, Cloud Engineering Consulting, and Web Development—enabling comprehensive digital transformation solutions for SMBs ranging from infrastructure optimization to custom application delivery.
+The company provides **seven complementary service lines**: IT Maintenance & Support, Application Change Management, FinOps Consulting, Cloud Engineering Consulting, Web Development, Accounting and Bookkeeping Services, and E-commerce Platform Services—enabling comprehensive digital transformation solutions for SMBs ranging from infrastructure optimization to custom application delivery.
 
 The company will leverage **financial and operational support programs offered by the Tamil Nadu state government** (StartupTN, TANSIM, TIDCO, and related schemes) to minimise initial capital requirements, access subsidised infrastructure, and accelerate early-stage growth.
 
@@ -42,7 +42,7 @@ The company will leverage **financial and operational support programs offered b
 | **Registered & Head Office** | Chennai, Tamil Nadu, India |
 | **Primary Markets** | India, Australia, Middle East (UAE/GCC) |
 | **Target Customers** | Small and Medium Businesses (SMBs) |
-| **Service Lines** | IT Maintenance & Support, Application Changes, FinOps Consulting, Cloud Engineering Consulting, Web Development |
+| **Service Lines** | IT Maintenance & Support, Application Changes, FinOps Consulting, Cloud Engineering Consulting, Web Development, Accounting & Bookkeeping, E-commerce Platform Services |
 | **Delivery Model** | Onshore (client location) + Offshore (Chennai) |
 | **Investment** | Equal contribution by 3 investing partners |
 | **Operations Partner** | Person-A — sweat equity, no capital investment |
@@ -122,7 +122,7 @@ This plan serves as the foundational roadmap to move from concept to a fully ope
 
 ### 3.1 Mission
 
-To deliver reliable, cost-effective IT maintenance, application support, and cloud consulting services to small and medium businesses across India, Australia, and the Middle East — enabling them to focus on their core business while we manage their technology operations.
+To deliver reliable, cost-effective IT maintenance, application support, cloud consulting, web development, accounting, and e-commerce solutions to small and medium businesses across India, Australia, and the Middle East — enabling them to focus on their core business while we manage their technology operations.
 
 ### 3.2 Vision
 
@@ -315,21 +315,83 @@ The global IT services market is projected to exceed **USD 1.5 trillion by 2028*
 - 1 DevOps Engineer (for deployment and CI/CD)
 - 1 UI/UX Designer (for Standard and Pro tiers)
 
+### 5.6 Accounting and Bookkeeping Services
+
+**Description:** Comprehensive accounting and bookkeeping solutions for SMBs, including implementation, customization, integration with other business systems, user training, ongoing support, and consulting to streamline financial operations, generate reports, and ensure compliance.
+
+| Sub-Service | Details |
+|---|---|
+| **Implementation Services** | Set up accounting software for new clients, including initial configuration, data migration, and system setup |
+| **Customization and Integration** | Tailor accounting solutions to specific business needs, integrate with e-commerce platforms, payment gateways, inventory systems, and other business apps |
+| **Training and Support** | Provide user training sessions, documentation, and 24/7 support for ongoing operations |
+| **Consulting and Optimization** | Offer advisory services on best practices, workflow automation, financial reporting, and compliance with local tax regulations in India, Australia, and Middle East |
+| **Managed Bookkeeping** | Monthly retainer services for ongoing bookkeeping, reconciliation, and financial statement preparation |
+| **Upgrade and Migration** | Help clients migrate from other accounting software or upgrade existing setups |
+
+**Supported Platforms:** QuickBooks, Xero, MYOB, SAP Business One, Oracle NetSuite, and other leading accounting software.
+
+**Delivery Model:** Remote implementation with onsite training for India and Middle East clients. Monthly bookkeeping delivered offshore from Chennai.
+
+**Pricing Model:** Fixed-fee for implementation + monthly retainer for ongoing support and bookkeeping.
+
+### 5.7 E-commerce Platform Services
+
+**Description:** End-to-end e-commerce solutions for SMBs across leading platforms (Shopify, WooCommerce, BigCommerce, Magento, and custom-built stores), including store setup, theme customization, app/plugin development, payment gateway integration, inventory management, SEO optimization, marketing automation, and ongoing maintenance to build and scale online businesses.
+
+**Supported Platforms:** Shopify, WooCommerce (WordPress), BigCommerce, Magento / Adobe Commerce, and headless/custom e-commerce builds.
+
+| Sub-Service | Details |
+|---|---|
+| **Store Setup and Launch** | Complete e-commerce store setup on the client's preferred platform, including domain setup, theme selection, product catalog configuration, and initial launch |
+| **Theme Customization and Design** | Custom theme development, branding integration, responsive design, and user experience optimization |
+| **App / Plugin Development and Integration** | Build custom apps or plugins for the chosen platform, integrate third-party tools, connect with payment gateways, shipping providers, and inventory systems |
+| **E-commerce Optimization** | SEO setup, performance optimization, conversion rate improvement, and analytics implementation |
+| **Marketing and Automation** | Email marketing setup, abandoned cart recovery, promotional campaigns, and social media integrations |
+| **Ongoing Maintenance and Support** | Regular updates, security monitoring, content management, and technical support for store operations |
+
+**Delivery Model:** Remote setup and customization with onsite workshops for India and Middle East clients. Ongoing maintenance delivered offshore.
+
+**Pricing Model:** Fixed-fee for setup + monthly retainer for maintenance and support.
+
 ---
 
 ## 6. Business Model & Revenue Streams
 
 ### 6.1 Revenue Model
 
-The company operates a **services-based B2B model** with five revenue streams:
+The company operates a **services-based B2B model** with seven revenue streams, with a planned eighth stream from SaaS productization beginning in Year 2:
 
 | Revenue Stream | Type | Billing Model | Expected % of Revenue (Year 2) |
 |---|---|---|---|
-| **IT Maintenance & Support** | Recurring | Monthly retainer | 30% |
-| **Application Change Management** | Recurring + Project | Monthly retainer + T&M | 20% |
-| **FinOps Consulting** | Project + Recurring | Fixed-fee + Monthly advisory | 12% |
-| **Cloud Engineering Consulting** | Project-based | Fixed-fee + T&M | 23% |
-| **Web Development** | Project-based | Fixed-fee + T&M | 15% |
+| **IT Maintenance & Support** | Recurring | Monthly retainer | 22% |
+| **Application Change Management** | Recurring + Project | Monthly retainer + T&M | 14% |
+| **FinOps Consulting** | Project + Recurring | Fixed-fee + Monthly advisory | 10% |
+| **Cloud Engineering Consulting** | Project-based | Fixed-fee + T&M | 18% |
+| **Web Development** | Project-based | Fixed-fee + T&M | 10% |
+| **Accounting and Bookkeeping Services** | Recurring | Fixed-fee + Monthly retainer | 10% |
+| **E-commerce Platform Services** | Recurring | Fixed-fee + Monthly retainer | 10% |
+| **SaaS Products** *(Phase 4 — from Month 13–18)* | Recurring | Subscription tiers | 6% (Year 2 early) → 15% (Year 3) |
+
+### 6.1a SaaS Productization Strategy
+
+As TechSprint accumulates delivery IP from client engagements, repeatable service components will be packaged into **subscription-based SaaS products** to generate scalable, high-margin recurring revenue independent of per-resource billing.
+
+**Rationale:** Managed services revenue scales linearly with headcount. SaaS products break this constraint by allowing revenue to grow without proportional hiring — improving margins and long-term valuation.
+
+**Planned SaaS Products:**
+
+| Product | Description | Target Segment | Pricing Model |
+|---|---|---|---|
+| **IT Ops Dashboard** | Packaged monitoring, alerting, and health-check portal for SMB IT environments | IT Maintenance clients | Tiered subscription (Starter/Growth/Scale) |
+| **FinOps Insights Tool** | Lightweight cloud cost visibility and anomaly detection SaaS on top of AWS/Azure/GCP billing APIs | FinOps/Cloud clients | Per-cloud-account subscription |
+| **Bookkeeping Automation Suite** | Guided bookkeeping workflows with region-specific compliance templates (India GST, Australia BAS, UAE VAT) | Accounting & Bookkeeping clients | Per-user/per-entity subscription |
+| **E-commerce Health Monitor** | Uptime, performance, and SEO health dashboard for Shopify, WooCommerce, BigCommerce stores | E-commerce clients | Per-store subscription |
+
+**Development Timeline:** Month 13–18 (once core services are stable and 10–15 active clients validate usage patterns).
+
+**Pricing Structure:** Each product offers three tiers — Starter (self-serve, limited features), Growth (standard features + email support), Scale (full features + dedicated support). Priced in AUD, AED, and INR for respective markets.
+
+**GTM Approach:** Existing clients are the primary channel — SaaS products are introduced as upgrades to current service subscriptions. New inbound leads can be acquired via product-led growth (free trials, usage-based onboarding).
 
 ### 6.2 Pricing Strategy
 
@@ -520,22 +582,26 @@ All four partners serve on the Board of Directors. Key board decisions:
 | **Cloud Engineer** | – | 1 | 2 | 4 |
 | **Application Developer / DevOps Engineer** | 1 | 2 | 4 | 6 |
 | **Web/Frontend Developer** | – | 1 | 2 | 4 |
+| **Accounting Specialist** | – | – | 1 | 2 |
+| **E-commerce Developer** | – | – | 1 | 2 |
 | **IT Support Engineer (L1/L2)** | 1 | 2 | 4 | 6 |
 | **QA Engineer** | – | 1 | 1 | 2 |
 | **UI/UX Designer** | – | – | 1 | 2 |
 | **Operations/Admin** | – | – | 1 | 1 |
-| **Total Headcount** | **4** | **9** | **18** | **29** |
+| **Total Headcount** | **4** | **9** | **20** | **31** |
 
 > **Note on dual roles and team expansion:**
 > - **Person-A** doubles as the **FinOps Lead**, owning the FinOps consulting practice (cloud cost assessments, optimisation, advisory). A dedicated FinOps Analyst will be hired once the practice scales beyond Person-A's bandwidth (expected Month 13–18).
 > - **Application Developers** also serve as **DevOps Engineers**, handling CI/CD pipelines, IaC, containerisation, and deployment automation alongside application development. This is a natural fit for SMB-scale engagements where full-stack delivery skills are valued.
 > - **Web/Frontend Developers** are hired starting Month 4–6 to support the Web Development practice. These developers specialize in React, Angular, or Vue.js and work on both greenfield web app projects and frontend-heavy modernization engagements.
+> - **Accounting Specialists** are added from Month 7–12 to handle accounting software implementations, bookkeeping services, and compliance consulting for SMB clients.
+> - **E-commerce Developers** are hired from Month 7–12 to manage e-commerce store setups, customizations, app/plugin integrations, and ongoing maintenance across platforms such as Shopify, WooCommerce, BigCommerce, and Magento.
 > - **UI/UX Designers** are added from Month 7–12 onwards to support Standard and Pro tier web application projects, ensuring professional user experience design for custom development engagements.
 
 ### 9.4 Hiring Strategy
 
 - **Source:** LinkedIn, Naukri, employee referrals, college campus hiring (for L1 support roles)
-- **Priority Skills:** AWS/Azure certified, ITIL foundation, Python/Java/.NET, Terraform, Docker/Kubernetes, CI/CD pipelines (for backend roles). React/Angular/Vue.js, JavaScript, TypeScript (for Web/Frontend Developers). UI/UX design tools (Figma, Adobe XD), design thinking, user research (for UI/UX Designers).
+- **Priority Skills:** AWS/Azure certified, ITIL foundation, Python/Java/.NET, Terraform, Docker/Kubernetes, CI/CD pipelines (for backend roles). React/Angular/Vue.js, JavaScript, TypeScript (for Web/Frontend Developers). Accounting software certifications (QuickBooks, Xero, SAP), GST compliance, financial reporting (for Accounting Specialists). E-commerce platform expertise (Shopify/Liquid, WooCommerce/PHP, BigCommerce/Stencil, Magento/Adobe Commerce), custom app/plugin development, payment gateway integrations, e-commerce best practices (for E-commerce Developers). UI/UX design tools (Figma, Adobe XD), design thinking, user research (for UI/UX Designers).
 - **Compensation:** Market-competitive (50th–65th percentile) with performance bonuses and ESOP pool (10% reserved)
 - **Remote Work:** Hybrid model — 3 days office, 2 days WFH for delivery team; Partners work from their respective locations
 - **Bench Policy:** Maintain a lean team; no speculative bench hiring. Hire against confirmed or high-probability pipeline.
@@ -609,7 +675,7 @@ All four partners serve on the Board of Directors. Key board decisions:
 | **Year 2** | ₹90 – 1.3 Cr | ₹9 – 13 Cr | 15–28 | 25–29 |
 | **Year 3** | ₹1.6 – 2.8 Cr | ₹16 – 28 Cr | 30–50 | 40–50 |
 
-> **Note:** Revenue projections account for the addition of Web Development service beginning Month 4–6. Projections assume 15% contribution from Web App Development, 30% from IT Support, 20% from Application Management, 23% from Cloud Engineering, and 12% from FinOps by Year 2.
+> **Note:** Revenue projections account for all seven service lines. Projections assume 25% from IT Support, 15% from Application Management, 10% from FinOps, 20% from Cloud Engineering, 10% from Web Development, 10% from Accounting & Bookkeeping, and 10% from E-commerce Platform Services by Year 2.
 
 ### 10.5 Profitability Timeline
 
@@ -778,9 +844,11 @@ The following legal documents must be executed before or at the time of company 
 | 3 | Complete ISO 27001 certification | Person-A | Certification received |
 | 4 | Scale team to 25–35 headcount | Person-A | Hiring complete |
 | 5 | Launch SOC 2 Type II evaluation | Person-A + Auditor | Readiness assessment |
-| 6 | Evaluate IP development (monitoring tools, automation scripts) | Sr. Tech Lead | Product roadmap (if viable) |
-| 7 | Consider next funding round or continue bootstrapped | Board | Strategic decision documented |
-| 8 | First dividend distribution to partners | Board | Dividend declared |
+| 6 | Begin SaaS product development — IT Ops Dashboard and FinOps Insights Tool (MVP) | Sr. Tech Lead + Cloud Engineer | SaaS MVP in beta with 2–3 pilot clients |
+| 7 | Begin Bookkeeping Automation Suite and E-commerce Health Monitor development | Sr. Tech Lead + Accounting/E-commerce teams | Alpha builds |
+| 8 | Launch SaaS products to existing client base; set up subscription billing infrastructure | Person-A + Sr. Tech Lead | First subscriptions billed |
+| 9 | Consider next funding round or continue bootstrapped | Board | Strategic decision documented |
+| 10 | First dividend distribution to partners | Board | Dividend declared |
 
 ---
 
@@ -796,6 +864,8 @@ The following legal documents must be executed before or at the time of company 
 | EBITDA Margin | 5–15% | 20–25% |
 | Cash Runway | >6 months operating expenses | >6 months |
 | Revenue per Employee | ₹10–15 Lakhs/month | ₹15–20 Lakhs/month |
+| SaaS MRR (from Month 18) | – | ₹5–10 Lakhs/month |
+| SaaS Revenue as % of Total | – | 5–10% (Year 2) → 15% (Year 3 target) |
 
 ### 14.2 Client KPIs
 

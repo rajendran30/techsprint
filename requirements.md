@@ -20,21 +20,21 @@ I am looking for a business plan for an IT Enabled Services (ITES) company. The 
 3. **FinOps Consulting** — help SMBs understand, optimise, and govern their cloud spending across AWS, Azure, and GCP (cost assessments, optimisation roadmaps, tagging, budget governance, ongoing advisory). Led by Person-A as FinOps Lead; dedicated FinOps Analyst to be hired once the practice scales (Month 13–18).
 4. **Cloud Engineering Consulting** — help SMBs design, migrate to, and optimise cloud infrastructure (cloud readiness assessments, architecture design, migration, IaC, DevOps/CI/CD, security/compliance, managed cloud operations).
 5. **Web development** - Create web applications through following offerings standard Starter (template-based, strict scope), Standard (some customisation), Pro (integrations, advanced features)
-6. **Zoho Books Services** — Comprehensive accounting and bookkeeping solutions for SMBs, including implementation, customization, integration with other business systems, user training, ongoing support, and consulting to streamline financial operations, generate reports, and ensure compliance.
-7. **Shopify Services** — End-to-end e-commerce solutions for SMBs, including store setup, theme customization, app development, payment gateway integration, inventory management, SEO optimization, marketing automation, and ongoing maintenance to build and scale online businesses.
+6. **Accounting and Bookkeeping Services** — Comprehensive accounting and bookkeeping solutions for SMBs, including implementation, customization, integration with other business systems, user training, ongoing support, and consulting to streamline financial operations, generate reports, and ensure compliance.
+7. **E-commerce Platform Services** — End-to-end e-commerce solutions for SMBs across leading platforms (e.g., Shopify, WooCommerce, BigCommerce, Magento), including store setup, theme customization, app development, payment gateway integration, inventory management, SEO optimization, marketing automation, and ongoing maintenance to build and scale online businesses.
 
-## Zoho Books Services
-- **Implementation Services**: Set up Zoho Books for new clients, including initial configuration, data migration, and system setup.
-- **Customization and Integration**: Tailor Zoho Books to specific business needs, integrate with e-commerce platforms, payment gateways, inventory systems, and other Zoho apps.
+## Accounting and Bookkeeping Services
+- **Implementation Services**: Set up accounting software for new clients, including initial configuration, data migration, and system setup.
+- **Customization and Integration**: Tailor accounting solutions to specific business needs, integrate with e-commerce platforms, payment gateways, inventory systems, and other business apps.
 - **Training and Support**: Provide user training sessions, documentation, and 24/7 support for ongoing operations.
 - **Consulting and Optimization**: Offer advisory services on best practices, workflow automation, financial reporting, and compliance with local tax regulations in India, Australia, and Middle East.
 - **Managed Bookkeeping**: Monthly retainer services for ongoing bookkeeping, reconciliation, and financial statement preparation.
-- **Upgrade and Migration**: Help clients migrate from other accounting software to Zoho Books or upgrade existing setups.
+- **Upgrade and Migration**: Help clients migrate from other accounting software or upgrade existing setups.
 
-## Shopify Services
-- **Store Setup and Launch**: Complete Shopify store creation, including domain setup, theme selection, product catalog configuration, and initial launch.
+## E-commerce Platform Services
+- **Store Setup and Launch**: Complete e-commerce store creation on the client's preferred platform (Shopify, WooCommerce, BigCommerce, Magento, or custom), including domain setup, theme selection, product catalog configuration, and initial launch.
 - **Theme Customization and Design**: Custom theme development, branding integration, responsive design, and user experience optimization.
-- **App Development and Integration**: Build custom Shopify apps, integrate third-party apps, connect with payment gateways, shipping providers, and inventory systems.
+- **App / Plugin Development and Integration**: Build custom apps or plugins, integrate third-party tools, connect payment gateways, shipping providers, and inventory management systems.
 - **E-commerce Optimization**: SEO setup, performance optimization, conversion rate improvement, and analytics implementation.
 - **Marketing and Automation**: Email marketing setup, abandoned cart recovery, promotional campaigns, and social media integrations.
 - **Ongoing Maintenance and Support**: Regular updates, security monitoring, content management, and technical support for store operations.
@@ -71,9 +71,21 @@ I am looking for a business plan for an IT Enabled Services (ITES) company. The 
 - Include **fixed-fee** model for cloud and FinOps assessments.
 - Include **monthly advisory retainer** for ongoing FinOps consulting.
 - Include **project-based pricing** (fixed-fee + T&M) for cloud engineering consulting.
-- Include **fixed-fee for implementation + monthly retainer** model for Zoho Books services (setup, training, and ongoing support).
-- Include **fixed-fee for setup + monthly retainer** model for Shopify services (store launch, customization, and ongoing maintenance).
+- Include **fixed-fee for implementation + monthly retainer** model for accounting and bookkeeping services (setup, training, and ongoing support).
+- Include **fixed-fee for setup + monthly retainer** model for e-commerce platform services (store launch, customization, and ongoing maintenance) across platforms such as Shopify, WooCommerce, BigCommerce, and Magento.
 - Pricing should leverage India's cost advantage — **20–30% discount to local market rates** in Australia and Middle East.
+
+## SaaS Productization Requirement
+- As the company matures and service delivery patterns stabilise, TechSprint should **productize repeatable service components into subscription-based Software as a Service (SaaS) products** to generate scalable, predictable recurring revenue.
+- Target productization areas include:
+  - **IT Operations Dashboard** — packaged monitoring, alerting, and health-check portal for SMB clients (replacing ad-hoc monitoring setups).
+  - **FinOps Insights Tool** — lightweight cloud cost visibility and anomaly detection SaaS built on top of AWS/Azure/GCP billing APIs.
+  - **Bookkeeping Workflow Automation** — guided bookkeeping and reconciliation workflows with region-specific compliance templates (India GST, Australia BAS, UAE VAT).
+  - **E-commerce Health Monitor** — uptime, performance, and SEO health dashboard for Shopify, WooCommerce, BigCommerce stores.
+- SaaS products should leverage delivery IP accumulated from client engagements — automation scripts, monitoring templates, compliance checklists — repackaged into self-serve or lightly-assisted subscription products.
+- SaaS development to begin in **Month 13–18** (Phase 4), once core service delivery is stable and at least 10–15 active clients provide pattern validation.
+- Target **tiered subscription pricing** (Starter / Growth / Scale) for each product, priced in AUD/AED/INR for respective markets.
+- SaaS revenue should be tracked separately as a distinct revenue stream, aiming to contribute **10–15% of total revenue by Year 3**.
 
 ## Delivery Model Requirements
 - **Blended onshore-offshore** delivery model.
