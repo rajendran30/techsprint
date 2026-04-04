@@ -393,6 +393,8 @@ As TechSprint accumulates delivery IP from client engagements, repeatable servic
 
 **GTM Approach:** Existing clients are the primary channel — SaaS products are introduced as upgrades to current service subscriptions. New inbound leads can be acquired via product-led growth (free trials, usage-based onboarding).
 
+**Multi-Tenancy Architecture:** All four SaaS products must be built on a multi-tenant architecture. Tenant isolation is enforced at two layers: (1) the API gateway layer via tenant-scoped JWT claims, and (2) the data layer via row-level security (RLS) or dedicated schemas per tenant, depending on data sensitivity. No cross-tenant data access is permissible under any operational condition. Tenant provisioning and de-provisioning are automated and generate immutable audit trails. Integration credentials (API keys, OAuth tokens) for each tenant are stored in an encrypted secrets vault (e.g., AWS Secrets Manager, Azure Key Vault) and never shared across tenants.
+
 ### 6.2 Pricing Strategy
 
 **Principle:** Price at a **20–30% discount to local market rates** in Australia and the Middle East (leveraging India's cost advantage) while maintaining **competitive rates for Indian clients** — not the cheapest, but demonstrably better value than alternatives.
@@ -548,7 +550,37 @@ The company operates a **blended onshore-offshore delivery model**:
 - **Monthly service reports** with SLA compliance, ticket analytics, and improvement recommendations
 - **Quarterly business reviews (QBRs)** with each client — service performance, satisfaction survey, roadmap discussion
 - **ISO 27001 certification** targeted within 18 months of operations (required for credibility with Australian and GCC clients)
-- **SOC 2 Type II** evaluation within 24 months (critical for Australian financial services clients)
+- **SOC 2 Type II** evaluation within 24 months (critical for Australian financial services clients); covers Security, Availability, and Confidentiality trust service criteria — directly validates multi-tenancy and data governance controls
+
+### 8.6 Data Governance & Multi-Tenancy
+
+All client-facing platforms, internal tooling that handles client data, and SaaS products operate under a formal Data Governance framework. The framework is reviewed and updated with every ISO 27001 audit cycle.
+
+**Data Classification Policy** (established at company formation):
+
+| Classification | Examples | Controls |
+|---|---|---|
+| **Public** | Marketing content, published documentation | No restrictions |
+| **Internal** | Internal processes, non-client operational data | Access limited to staff |
+| **Confidential** | Client business data, contracts, engagement data | Encrypted at rest and in transit; RBAC-controlled; audit logged |
+| **Restricted** | Client financial data, PII, credentials, API keys | Encrypted; stored in secrets vault; strict need-to-know; immutable audit log |
+
+**Multi-Tenancy Controls by Service Line:**
+
+| Service Line | Isolation Mechanism |
+|---|---|
+| **Managed Services & IT Support** | Dedicated credential-isolated VPN/bastion per client; no shared monitoring agents |
+| **SaaS Products** | Tenant-scoped JWT at API gateway; RLS or schema-per-tenant at database layer |
+| **Accounting & Bookkeeping** | Isolated data store or schema per client; per-tenant encrypted credentials in secrets vault |
+| **E-commerce Platform Services** | Per-merchant access tokens; analytics data scoped per store; never commingled |
+
+**Data Governance Practices:**
+- **Data Residency:** Client data is stored in the geographic region agreed in the service contract (India, Australia, or UAE), compliant with India DPDP Act 2023, Australia Privacy Act 1988 (APPs), and UAE PDPL.
+- **Retention & Deletion:** Defined retention periods per data classification. Automated archival/deletion pipelines. Client data purged within 30 days of contract termination on written request.
+- **Access Controls:** RBAC enforced across all systems. Staff access to client data is on a need-to-know basis, reviewed quarterly, and centrally logged via SIEM.
+- **Audit Logging:** All access to client data — internal tooling, managed operations, or SaaS APIs — generates immutable logs retained for a minimum of 12 months.
+- **Data Processing Agreements (DPAs):** Signed DPAs with all clients prior to any data ingestion, compliant with Australian Privacy Principles, UAE PDPL, and GDPR (for any EU-connected clients).
+- **Record of Processing Activities (RoPA):** Maintained and updated as new services or data flows are introduced.
 
 ---
 
@@ -769,13 +801,14 @@ The company will actively leverage the following Tamil Nadu government programs 
 | 1 | **Client acquisition slower than projected** | Medium | High | Extend runway to 18 months; lower initial hiring; offer free assessments aggressively; leverage partner networks early |
 | 2 | **Key person dependency (Person-A)** | Medium | High | Document all processes; hire a strong #2 (Sr. Technical Lead) early; cross-train team; ensure Person-A's sweat equity vesting incentivises retention |
 | 3 | **Currency fluctuation (AUD/AED to INR)** | Medium | Medium | Invoice in client's currency; maintain multi-currency accounts; consider forward contracts for large engagements |
-| 4 | **Data security breach / compliance failure** | Low | Critical | Implement ISO 27001 controls from Day 1; sign NDAs with all clients; encrypt all data; restrict access; pursue certification within 18 months |
+| 4 | **Data security breach / compliance failure** | Low | Critical | Implement ISO 27001 controls from Day 1; enforce multi-tenant isolation and RBAC across all systems; sign NDAs and DPAs with all clients; encrypt data at rest and in transit; store credentials in secrets vault; maintain immutable audit logs; pursue ISO 27001 certification within 18 months and SOC 2 Type II within 24 months |
 | 5 | **Competition from larger players entering SMB space** | Medium | Medium | Differentiate on responsiveness, personal attention, and SMB-friendly pricing; build deep client relationships that are hard to displace |
 | 6 | **Partner disagreements** | Low | High | Shareholders' Agreement with clear roles, decision-making authority, conflict resolution mechanism, and exit provisions |
 | 7 | **Talent retention / attrition** | Medium | Medium | Competitive compensation; ESOPs for key hires; positive work culture; growth opportunities; hybrid work policy |
 | 8 | **Delayed government grants** | Medium | Low | Do not depend on government grants for essential operations; treat grants as bonus funding |
 | 9 | **Regulatory changes in target markets** | Low | Medium | Monitor regulatory landscape; engage local legal advisors in Australia (ABN/GST) and UAE (free zone vs. mainland compliance) |
 | 10 | **Economic downturn reducing SMB IT budgets** | Medium | High | IT support is essential (less discretionary than consulting); diversify across geographies to reduce concentration risk |
+| 11 | **Regulatory non-compliance (DPDP / Privacy Act / PDPL)** | Low | High | Maintain DPAs with all clients; implement data residency controls by geography; monitor regulatory changes in India, Australia, and UAE; engage local legal advisors for annual compliance reviews; track against RoPA |
 
 ### 12.1 Legal Safeguards
 
@@ -788,6 +821,7 @@ The following legal documents must be executed before or at the time of company 
 | **Employment Agreement (Person-A)** | Salary, role, sweat equity terms, IP assignment, confidentiality, non-compete |
 | **Business Development Agreement (Partner B/C/D)** | Commission structure, territory exclusivity, non-compete, conflict of interest provisions |
 | **Client Master Service Agreement (MSA)** | Standard SLA terms, liability caps, IP ownership, data protection, payment terms, termination clauses |
+| **Data Processing Agreement (DPA)** | Governs how TechSprint processes client personal data; covers data classification, residency, retention, deletion, breach notification, and sub-processor obligations; compliant with India DPDP Act, Australian Privacy Principles, and UAE PDPL |
 | **NDA Template** | For use with clients, employees, and contractors |
 
 ---
@@ -809,6 +843,7 @@ The following legal documents must be executed before or at the time of company 
 | 9 | Hire initial team (Sr. Tech Lead + 1 Developer + 1 L1 Support) | Person-A | Offer letters issued |
 | 10 | Build website+branding, set up CRM and ITSM tools | Person-A + Team | Website live, tools configured |
 | 11 | Partners begin outreach to prospects | Partner-B/C/D | Pipeline of 10–15 prospects |
+| 12 | Establish Data Classification Policy, DPA template, and RBAC framework; configure secrets vault | Person-A + Legal | Data governance baseline documented and operational |
 
 ### Phase 2: First Clients (Month 4–6)
 
@@ -847,7 +882,9 @@ The following legal documents must be executed before or at the time of company 
 | 6 | Begin SaaS product development — IT Ops Dashboard and FinOps Insights Tool (MVP) | Sr. Tech Lead + Cloud Engineer | SaaS MVP in beta with 2–3 pilot clients |
 | 7 | Begin Bookkeeping Automation Suite and E-commerce Health Monitor development | Sr. Tech Lead + Accounting/E-commerce teams | Alpha builds |
 | 8 | Launch SaaS products to existing client base; set up subscription billing infrastructure | Person-A + Sr. Tech Lead | First subscriptions billed |
-| 9 | Consider next funding round or continue bootstrapped | Board | Strategic decision documented |
+| 9 | Validate multi-tenancy isolation controls across all SaaS products; conduct internal penetration testing for cross-tenant data leakage | Sr. Tech Lead + QA | Penetration test report; zero critical findings |
+| 10 | Conduct DPA audit — review all client DPAs for DPDP/Privacy Act/PDPL alignment; update RoPA | Person-A + Legal | Audit complete; all DPAs current |
+| 11 | Consider next funding round or continue bootstrapped | Board | Strategic decision documented |
 | 10 | First dividend distribution to partners | Board | Dividend declared |
 
 ---
@@ -928,6 +965,15 @@ The following legal documents must be executed before or at the time of company 
 | **STPI** | Software Technology Parks of India |
 | **ELCOT** | Electronics Corporation of Tamil Nadu |
 | **CGTMSE** | Credit Guarantee Fund Trust for Micro and Small Enterprises |
+| **DPDP Act** | Digital Personal Data Protection Act 2023 — India's primary personal data protection law |
+| **PDPL** | Personal Data Protection Law — UAE's data protection regulation |
+| **APPs** | Australian Privacy Principles — the 13 principles governing personal information handling under the Australia Privacy Act 1988 |
+| **DPA** | Data Processing Agreement — contract specifying how a service provider processes personal data on behalf of a client |
+| **RoPA** | Record of Processing Activities — inventory of all personal data processing operations, required under modern data protection frameworks |
+| **RBAC** | Role-Based Access Control — access control model granting permissions based on a user's role |
+| **RLS** | Row-Level Security — database feature restricting which rows a user or tenant can access |
+| **Multi-Tenancy** | Architecture pattern where a single instance of software serves multiple customers (tenants) with strict data isolation between them |
+| **SIEM** | Security Information and Event Management — platform for centralised security log collection, analysis, and alerting |
 
 ### Appendix B: Key Assumptions
 

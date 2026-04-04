@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - TECHSPRINT | Managed Services, Cloud Engineering, Digital Marketing, Accounting, E-commerce, SaaS</title>
+    <title>Services - TECHSPRINT | Managed Services, Cloud Engineering, Digital Marketing, Accounting, E-commerce, SaaS, Data Governance</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -651,6 +651,15 @@
 
                     <h3>Go-to-Market Approach</h3>
                     <p>Existing managed service clients are the primary channel — SaaS products are introduced as upgrades to current service subscriptions. New inbound leads are acquired via product-led growth: free trials, usage-based onboarding, and in-product referrals.</p>
+
+                    <h3>Multi-Tenancy Architecture</h3>
+                    <p>All four SaaS products are built on a strict multi-tenant architecture. Each customer's data is logically isolated with no cross-tenant access possible under any operating condition:</p>
+                    <ul class="pricing-list">
+                        <li><strong>API Layer:</strong> Tenant-scoped JWT claims enforced at the API gateway — every request is validated against the originating tenant identity</li>
+                        <li><strong>Data Layer:</strong> Row-level security (RLS) or dedicated schema-per-tenant at the database layer, chosen based on data sensitivity</li>
+                        <li><strong>Credentials:</strong> Integration API keys and OAuth tokens stored per-tenant in an encrypted secrets vault (AWS Secrets Manager / Azure Key Vault)</li>
+                        <li><strong>Audit Trail:</strong> Tenant provisioning and de-provisioning are automated and generate immutable audit logs</li>
+                    </ul>
                 </div>
 
                 <div class="content-sidebar">
@@ -681,6 +690,113 @@
                             <li>FinOps / Cloud clients</li>
                             <li>Accounting & Bookkeeping clients</li>
                             <li>E-commerce store operators</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Governance & Compliance -->
+    <section id="data-governance" class="service-detail">
+        <div class="container">
+            <div class="service-header">
+                <div class="service-icon-large">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div>
+                    <h2>Data Governance &amp; Compliance</h2>
+                    <p class="service-description">Enterprise-grade data protection as standard practice — not a premium add-on. Every client engagement is governed by multi-tenant isolation, regional data residency, signed Data Processing Agreements, and role-based access controls that are audited continuously.</p>
+                </div>
+            </div>
+
+            <div class="service-content">
+                <div class="content-main">
+                    <h3>Multi-Tenancy by Service Line</h3>
+                    <div class="service-offerings">
+                        <div class="offering">
+                            <h4><i class="fas fa-check-circle"></i> Managed Services &amp; IT Support</h4>
+                            <p>Client environments are accessed via dedicated, credential-isolated VPN/bastion connections. No shared credentials or monitoring agents span across clients. Each client's environment is a fully segregated operational boundary.</p>
+                        </div>
+                        <div class="offering">
+                            <h4><i class="fas fa-check-circle"></i> SaaS Products</h4>
+                            <p>Tenant isolation enforced at two layers: tenant-scoped JWT claims at the API gateway, and row-level security (RLS) or dedicated schemas at the database layer. Integration credentials stored per-tenant in an encrypted secrets vault. Automated provisioning with immutable audit trails.</p>
+                        </div>
+                        <div class="offering">
+                            <h4><i class="fas fa-check-circle"></i> Accounting &amp; Bookkeeping</h4>
+                            <p>Each client's financial data is maintained in a fully isolated data store or schema. Accounting software API keys and OAuth tokens are stored per-tenant in an encrypted secrets vault and never shared across clients.</p>
+                        </div>
+                        <div class="offering">
+                            <h4><i class="fas fa-check-circle"></i> E-commerce Platform Services</h4>
+                            <p>Per-merchant access tokens, store credentials, and analytics data are scoped to each merchant and never commingled. Platform API credentials are rotated and audited regularly.</p>
+                        </div>
+                    </div>
+
+                    <h3>Data Governance Practices</h3>
+                    <div class="service-offerings">
+                        <div class="offering">
+                            <h4><i class="fas fa-check-circle"></i> Data Classification Policy</h4>
+                            <p>All data is classified at ingestion as Public, Internal, Confidential, or Restricted. Client business data is Confidential at minimum; financial records and PII are Restricted — subject to encryption at rest and in transit, vault-based credential storage, and immutable audit logging.</p>
+                        </div>
+                        <div class="offering">
+                            <h4><i class="fas fa-check-circle"></i> Data Residency Controls</h4>
+                            <p>Client data is stored in the geographic region agreed in the service contract. Compliant with India DPDP Act 2023 (Indian clients), Australia Privacy Act 1988 / Australian Privacy Principles (Australian clients), and UAE Personal Data Protection Law — PDPL (Middle East clients).</p>
+                        </div>
+                        <div class="offering">
+                            <h4><i class="fas fa-check-circle"></i> Data Processing Agreements (DPAs)</h4>
+                            <p>A signed DPA is executed with every client before any data ingestion. DPAs cover data classification, residency, retention, deletion, breach notification obligations, and sub-processor disclosures — compliant with Australian Privacy Principles, UAE PDPL, and GDPR where applicable.</p>
+                        </div>
+                        <div class="offering">
+                            <h4><i class="fas fa-check-circle"></i> RBAC &amp; Audit Logging</h4>
+                            <p>Role-based access control (RBAC) is enforced across all internal systems. Staff access to client data is on a strict need-to-know basis, reviewed quarterly. All access events are centrally logged via SIEM and retained as immutable records for a minimum of 12 months.</p>
+                        </div>
+                        <div class="offering">
+                            <h4><i class="fas fa-check-circle"></i> Data Retention &amp; Deletion</h4>
+                            <p>Defined retention periods apply per data classification. Automated archival and deletion pipelines enforce these periods. Client data is purged within 30 days of contract termination upon written request, with a deletion certificate issued.</p>
+                        </div>
+                    </div>
+
+                    <h3>Compliance Certifications Roadmap</h3>
+                    <ul class="pricing-list">
+                        <li><strong>ISO 27001:</strong> Targeted within 18 months of operations — required for credibility with Australian and GCC clients</li>
+                        <li><strong>SOC 2 Type II:</strong> Evaluation within 24 months, covering Security, Availability, and Confidentiality trust service criteria — directly validates multi-tenancy and data governance controls</li>
+                        <li><strong>India DPDP Act 2023:</strong> Compliant from Day 1 for all Indian client and employee personal data</li>
+                        <li><strong>Australia Privacy Act 1988 (APPs):</strong> Full compliance for all Australian client data</li>
+                        <li><strong>UAE PDPL:</strong> Compliance for all Middle East client data</li>
+                    </ul>
+                </div>
+
+                <div class="content-sidebar">
+                    <div class="sidebar-box highlight">
+                        <h4>Our Commitment</h4>
+                        <ul>
+                            <li>Your data stays yours</li>
+                            <li>Zero cross-tenant data access</li>
+                            <li>Data stored in your region</li>
+                            <li>DPA signed before data ingestion</li>
+                            <li>Deletion within 30 days on request</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-box">
+                        <h4>Regulations We Cover</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> India DPDP Act 2023</li>
+                            <li><i class="fas fa-check"></i> Australia Privacy Act 1988</li>
+                            <li><i class="fas fa-check"></i> UAE PDPL</li>
+                            <li><i class="fas fa-check"></i> GDPR (EU-connected clients)</li>
+                            <li><i class="fas fa-check"></i> ISO 27001 (target 18 months)</li>
+                            <li><i class="fas fa-check"></i> SOC 2 Type II (target 24 months)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-box">
+                        <h4>Key Differentiators</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Standard for every client — not optional</li>
+                            <li><i class="fas fa-check"></i> Multi-tenant isolation by design</li>
+                            <li><i class="fas fa-check"></i> Regional data residency enforced</li>
+                            <li><i class="fas fa-check"></i> 12-month immutable audit logs</li>
                         </ul>
                     </div>
                 </div>
@@ -727,6 +843,7 @@
                         <li><a href="#accounting-bookkeeping">Accounting & Bookkeeping</a></li>
                         <li><a href="#ecommerce">E-commerce Solutions</a></li>
                         <li><a href="#saas-products">SaaS Products</a></li>
+                        <li><a href="#data-governance">Data Governance</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

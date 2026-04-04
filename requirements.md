@@ -86,6 +86,7 @@ I am looking for a business plan for an IT Enabled Services (ITES) company. The 
 - SaaS development to begin in **Month 13–18** (Phase 4), once core service delivery is stable and at least 10–15 active clients provide pattern validation.
 - Target **tiered subscription pricing** (Starter / Growth / Scale) for each product, priced in AUD/AED/INR for respective markets.
 - SaaS revenue should be tracked separately as a distinct revenue stream, aiming to contribute **10–15% of total revenue by Year 3**.
+- All SaaS products must be built on a **multi-tenant architecture** where each customer's data is logically isolated. Tenant isolation must be enforced at the application layer (tenant-scoped API authorization) and the data layer (row-level security or schema-per-tenant, depending on product sensitivity). No cross-tenant data leakage is permissible under any operational condition. Tenant provisioning and de-provisioning must be automated with full audit trails.
 
 ## Delivery Model Requirements
 - **Blended onshore-offshore** delivery model.
@@ -99,11 +100,30 @@ I am looking for a business plan for an IT Enabled Services (ITES) company. The 
 - Hybrid work model (3 days office, 2 days WFH).
 - ESOP pool (10%) reserved for key hires.
 
+## Data Governance & Multi-Tenancy
+- **Multi-Tenancy Architecture:** All client-facing platforms, internal tooling, and SaaS products that handle customer data must implement multi-tenancy with strict tenant isolation. Each customer's data is logically segregated and no tenant may access, query, or modify another tenant's data.
+- **Tenancy Models by Context:**
+  - *Managed Services & IT Support:* Client environments are accessed via dedicated, credential-isolated connections (VPN/bastion per client). No shared credentials or shared monitoring agents across clients.
+  - *SaaS Products (IT Ops Dashboard, FinOps Insights, Bookkeeping Automation, E-commerce Health Monitor):* Tenant isolation enforced via tenant-scoped JWT claims at the API gateway layer and row-level security (RLS) or dedicated schemas at the database layer.
+  - *Accounting & Bookkeeping:* Each client's financial data is maintained in a fully isolated data store or schema. Integration credentials (accounting software API keys) are stored per-tenant in an encrypted secrets vault (e.g., AWS Secrets Manager, Azure Key Vault).
+  - *E-commerce Platform Services:* Access tokens, store credentials, and analytics data are scoped per merchant and never commingled.
+- **Data Governance Practices:**
+  - A **Data Classification Policy** must be established at company formation, categorising data as Public, Internal, Confidential, or Restricted. Client business data is classified as Confidential at minimum; financial and PII data as Restricted.
+  - **Data Residency Controls:** Client data must be stored in the geographic region agreed in the service contract (India, Australia, or UAE) in compliance with local regulations (India DPDP Act 2023, Australia Privacy Act 1988, UAE PDPL).
+  - **Data Retention and Deletion:** Defined retention periods per data category. Automated deletion or archival pipelines required. Client data must be purged within 30 days of contract termination upon written request.
+  - **Access Controls:** Role-based access control (RBAC) enforced across all systems. Staff access to client data is on a need-to-know basis, logged centrally (SIEM), and reviewed quarterly.
+  - **Audit Logging:** All access to client data — whether via internal tooling, managed service operations, or SaaS product APIs — must generate immutable audit logs retained for a minimum of 12 months.
+  - **Data Processing Agreements (DPAs):** Signed DPAs with all clients prior to data ingestion, compliant with GDPR (for any EU-connected clients), Australian Privacy Principles, and UAE PDPL requirements.
+- The Data Governance framework must be reviewed and updated alongside each ISO 27001 audit cycle.
+
 ## Compliance & Certifications
 - **ISO 27001** certification targeted within 18 months.
-- **SOC 2 Type II** evaluation within 24 months.
+- **SOC 2 Type II** evaluation within 24 months (covers Security, Availability, and Confidentiality trust service criteria — directly validates multi-tenancy and data governance controls).
 - FDI compliance under automatic route for IT/ITES (for Dubai and Australia partners).
 - RBI FC-GPR filing for foreign share allotment.
+- **India DPDP Act 2023** compliance for all personal data processed for Indian clients and employees.
+- **Australia Privacy Act 1988 (APPs)** compliance for all Australian client data.
+- **UAE Personal Data Protection Law (PDPL)** compliance for Middle East client data.
 
 ## Requested Output
 Come up with a comprehensive business plan in Markdown (MD) format covering:
