@@ -1058,6 +1058,12 @@ a:hover {
     margin-bottom: 0.75rem;
 }
 
+.value-overview-card h4 {
+    color: var(--primary-color);
+    font-size: 0.95rem;
+    margin: 0.75rem 0 0.4rem;
+}
+
 .value-overview-card p {
     color: var(--gray);
     margin-bottom: 0.5rem;
@@ -1065,6 +1071,16 @@ a:hover {
 
 .value-overview-card p:last-child {
     margin-bottom: 0;
+}
+
+.value-overview-card ul {
+    margin: 0 0 0.35rem 1.1rem;
+}
+
+.value-overview-card li {
+    color: var(--gray);
+    margin-bottom: 0.3rem;
+    line-height: 1.45;
 }
 
 .content-sidebar {
