@@ -24,11 +24,11 @@
 
 ## 1. Executive Summary
 
-This business plan outlines the formation and growth strategy for an IT Enabled Services (ITES) company headquartered in **Chennai, Tamil Nadu, India**. The company provides IT maintenance and support, application change management, FinOps consulting, cloud engineering consulting, web development, accounting and bookkeeping services, and e-commerce platform solutions (Shopify, WooCommerce, BigCommerce, Magento, and more) to **small and medium-sized businesses (SMBs)** across **India, Australia, and the Middle East**.
+This business plan outlines the formation and growth strategy for an IT Enabled Services (ITES) company headquartered in **Chennai, Tamil Nadu, India**. The company provides IT maintenance and support, application change management, Cloud Engineering and FinOps consulting, web development, accounting and bookkeeping services, and e-commerce platform solutions (Shopify, WooCommerce, BigCommerce, Magento, and more) to **small and medium-sized businesses (SMBs)** across **India, Australia, and the Middle East**.
 
-Founded by **four partners** — three investing partners located in India, Dubai, and Australia respectively, and one operations partner (Person-A) based in Chennai who manages day-to-day operations and leads FinOps consulting with a sweat equity stake — the company leverages India's cost advantage, a skilled talent pool in Chennai's thriving IT corridor, and the investing partners' regional presence to acquire and serve clients across three geographies.
+Founded by **four partners** — three investing partners located in India, Dubai, and Australia respectively, and one operations partner (Person-A) based in Chennai who manages day-to-day operations and leads Cloud Engineering and FinOps consulting with a sweat equity stake — the company leverages India's cost advantage, a skilled talent pool in Chennai's thriving IT corridor, and the investing partners' regional presence to acquire and serve clients across three geographies.
 
-The company provides **seven complementary service lines**: IT Maintenance & Support, Application Change Management, FinOps Consulting, Cloud Engineering Consulting, Web Development, Accounting and Bookkeeping Services, and E-commerce Platform Services—enabling comprehensive digital transformation solutions for SMBs ranging from infrastructure optimization to custom application delivery.
+The company provides **six complementary service lines**: IT Maintenance & Support, Application Change Management, Cloud Engineering and FinOps consulting, Web Development, Accounting and Bookkeeping Services, and E-commerce Platform Services—enabling comprehensive digital transformation solutions for SMBs ranging from infrastructure optimization to custom application delivery.
 
 The company will leverage **financial and operational support programs offered by the Tamil Nadu state government** (StartupTN, TANSIM, TIDCO, and related schemes) to minimise initial capital requirements, access subsidised infrastructure, and accelerate early-stage growth.
 
@@ -42,7 +42,7 @@ The company will leverage **financial and operational support programs offered b
 | **Registered & Head Office** | Chennai, Tamil Nadu, India |
 | **Primary Markets** | India, Australia, Middle East (UAE/GCC) |
 | **Target Customers** | Small and Medium Businesses (SMBs) |
-| **Service Lines** | IT Maintenance & Support, Application Changes, FinOps Consulting, Cloud Engineering Consulting, Web Development, Accounting & Bookkeeping, E-commerce Platform Services |
+| **Service Lines** | IT Maintenance & Support, Application Changes, Cloud Engineering and FinOps consulting, Web Development, Accounting & Bookkeeping, E-commerce Platform Services |
 | **Delivery Model** | Onshore (client location) + Offshore (Chennai) |
 | **Investment** | Equal contribution by 3 investing partners |
 | **Operations Partner** | Person-A — sweat equity, no capital investment |
@@ -226,28 +226,9 @@ The global IT services market is projected to exceed **USD 1.5 trillion by 2028*
 
 **Pricing Model:** Time & Material (T&M) for ad-hoc changes; monthly retainer with a pool of hours for ongoing maintenance.
 
-### 5.3 FinOps Consulting
+### 5.3 Cloud Engineering and FinOps consulting
 
-**Description:** Help SMBs understand, optimise, and govern their cloud spending across AWS, Azure, and GCP.
-
-| Sub-Service | Details |
-|---|---|
-| **Cloud Cost Assessment** | Baseline current cloud spend; identify waste, idle resources, over-provisioned instances, and unattached storage/IPs |
-| **Optimisation Roadmap** | Prioritised recommendations with estimated savings — rightsizing, reserved instances, savings plans, spot usage, scheduling |
-| **Cost Allocation & Tagging** | Design and implement tagging taxonomy for cost allocation by project, department, environment, and application |
-| **Budget & Governance Setup** | Configure cloud-native budgeting tools, alerts, and approval workflows; establish spending guardrails |
-| **Ongoing FinOps Advisory** | Monthly reviews of cloud spend trends, anomaly analysis, commitment utilisation, and optimisation tracking |
-| **FinOps Training** | Workshops for client teams on cloud cost management principles and tools |
-
-**Target Savings:** 20–40% reduction in cloud spend for clients with no existing FinOps practice.
-
-**Delivery Model:** Primarily remote with initial on-site/virtual workshops for discovery. Monthly advisory delivered via video calls and reports.
-
-**Pricing Model:** Fixed-fee for assessments and roadmaps; monthly retainer for ongoing advisory.
-
-### 5.4 Cloud Engineering Consulting
-
-**Description:** Help SMBs design, migrate to, and optimise cloud infrastructure on AWS, Azure, and GCP.
+**Description:** Help SMBs design, migrate to, optimise, and govern cloud infrastructure and spend across AWS, Azure, and GCP.
 
 | Sub-Service | Details |
 |---|---|
@@ -258,14 +239,22 @@ The global IT services market is projected to exceed **USD 1.5 trillion by 2028*
 | **DevOps & CI/CD** | Set up CI/CD pipelines (GitHub Actions, Azure DevOps, Jenkins, GitLab CI); containerisation (Docker, Kubernetes); monitoring (Prometheus, Grafana, CloudWatch) |
 | **Cloud Security & Compliance** | Security hardening, IAM best practices, encryption, compliance alignment (SOC 2, ISO 27001, GDPR basics for SMBs) |
 | **Managed Cloud Operations** | Ongoing cloud operations — monitoring, patching, scaling, incident response, cost management |
+| **Cloud Cost Assessment** | Baseline current cloud spend; identify waste, idle resources, over-provisioned instances, and unattached storage/IPs |
+| **Optimisation Roadmap** | Prioritised recommendations with estimated savings — rightsizing, reserved instances, savings plans, spot usage, scheduling |
+| **Cost Allocation & Tagging** | Design and implement tagging taxonomy for cost allocation by project, department, environment, and application |
+| **Budget & Governance Setup** | Configure cloud-native budgeting tools, alerts, and approval workflows; establish spending guardrails |
+| **Ongoing FinOps Advisory** | Monthly reviews of cloud spend trends, anomaly analysis, commitment utilisation, and optimisation tracking |
+| **FinOps Training** | Workshops for client teams on cloud cost management principles and tools |
+
+**Target Savings:** 20–40% reduction in cloud spend for clients with no existing FinOps practice.
 
 **Cloud Platforms:** AWS, Microsoft Azure, Google Cloud Platform (GCP). Multi-cloud and hybrid-cloud scenarios supported.
 
-**Delivery Model:** Blended (onsite discovery + offshore execution). Heavy offshore leverage for implementation work.
+**Delivery Model:** Blended (onsite discovery + offshore execution) with monthly advisory reviews.
 
-**Pricing Model:** Fixed-fee for assessments and design; T&M for migration and implementation; monthly retainer for managed operations.
+**Pricing Model:** Fixed-fee for assessments and design; T&M for migration and implementation; monthly retainer for ongoing advisory and managed operations.
 
-### 5.5 Web Development
+### 5.4 Web Development
 
 **Description:** Custom web development using modern frameworks, with tiered service offerings designed for SMBs. Solutions range from template-based starter applications to fully customized, integrated enterprise-grade web platforms.
 
@@ -315,7 +304,7 @@ The global IT services market is projected to exceed **USD 1.5 trillion by 2028*
 - 1 DevOps Engineer (for deployment and CI/CD)
 - 1 UI/UX Designer (for Standard and Pro tiers)
 
-### 5.6 Accounting and Bookkeeping Services
+### 5.5 Accounting and Bookkeeping Services
 
 **Description:** Comprehensive accounting and bookkeeping solutions for SMBs, including implementation, customization, integration with other business systems, user training, ongoing support, and consulting to streamline financial operations, generate reports, and ensure compliance.
 
@@ -334,7 +323,7 @@ The global IT services market is projected to exceed **USD 1.5 trillion by 2028*
 
 **Pricing Model:** Fixed-fee for implementation + monthly retainer for ongoing support and bookkeeping.
 
-### 5.7 E-commerce Platform Services
+### 5.6 E-commerce Platform Services
 
 **Description:** End-to-end e-commerce solutions for SMBs across leading platforms (Shopify, WooCommerce, BigCommerce, Magento, and custom-built stores), including store setup, theme customization, app/plugin development, payment gateway integration, inventory management, SEO optimization, marketing automation, and ongoing maintenance to build and scale online businesses.
 
@@ -365,8 +354,7 @@ The company operates a **services-based B2B model** with seven revenue streams, 
 |---|---|---|---|
 | **IT Maintenance & Support** | Recurring | Monthly retainer | 22% |
 | **Application Change Management** | Recurring + Project | Monthly retainer + T&M | 14% |
-| **FinOps Consulting** | Project + Recurring | Fixed-fee + Monthly advisory | 10% |
-| **Cloud Engineering Consulting** | Project-based | Fixed-fee + T&M | 18% |
+| **Cloud Engineering and FinOps consulting** | Project + Recurring | Fixed-fee + T&M + Monthly advisory | 28% |
 | **Web Development** | Project-based | Fixed-fee + T&M | 10% |
 | **Accounting and Bookkeeping Services** | Recurring | Fixed-fee + Monthly retainer | 10% |
 | **E-commerce Platform Services** | Recurring | Fixed-fee + Monthly retainer | 10% |
@@ -590,7 +578,7 @@ All client-facing platforms, internal tooling that handles client data, and SaaS
 
 | Partner | Role | Location | Key Responsibilities |
 |---|---|---|---|
-| **Person-A** | Managing Director / COO + FinOps Lead | Chennai, India | Day-to-day operations; delivery management; team hiring and management; client delivery; process setup; **leads FinOps consulting practice** — conducts cloud cost assessments, optimisation roadmaps, and ongoing advisory for clients |
+| **Person-A** | Managing Director / COO + FinOps Lead | Chennai, India | Day-to-day operations; delivery management; team hiring and management; client delivery; process setup; **leads Cloud Engineering and FinOps consulting practice** — conducts cloud architecture planning, migrations, cost assessments, optimisation roadmaps, and ongoing advisory for clients |
 | **Partner-B** | Director / Business Development – India | India | India market business development; industry networking; financial oversight as investor |
 | **Partner-C** | Director / Business Development – Middle East | Dubai, UAE | GCC market business development; regional client relationships; commercial partnerships in the ME region |
 | **Partner-D** | Director / Business Development – Australia | Australia | Australia/NZ market business development; regional client relationships; commercial partnerships in ANZ region |
@@ -623,7 +611,7 @@ All four partners serve on the Board of Directors. Key board decisions:
 | **Total Headcount** | **4** | **9** | **20** | **31** |
 
 > **Note on dual roles and team expansion:**
-> - **Person-A** doubles as the **FinOps Lead**, owning the FinOps consulting practice (cloud cost assessments, optimisation, advisory). A dedicated FinOps Analyst will be hired once the practice scales beyond Person-A's bandwidth (expected Month 13–18).
+> - **Person-A** doubles as the **FinOps Lead**, owning the Cloud Engineering and FinOps consulting practice (cloud architecture, migration planning, cost assessments, optimisation, advisory). A dedicated FinOps Analyst will be hired once the practice scales beyond Person-A's bandwidth (expected Month 13–18).
 > - **Application Developers** also serve as **DevOps Engineers**, handling CI/CD pipelines, IaC, containerisation, and deployment automation alongside application development. This is a natural fit for SMB-scale engagements where full-stack delivery skills are valued.
 > - **Web/Frontend Developers** are hired starting Month 4–6 to support the Web Development practice. These developers specialize in React, Angular, or Vue.js and work on both greenfield web app projects and frontend-heavy modernization engagements.
 > - **Accounting Specialists** are added from Month 7–12 to handle accounting software implementations, bookkeeping services, and compliance consulting for SMB clients.
@@ -867,7 +855,7 @@ The following legal documents must be executed before or at the time of company 
 | 4 | Achieve monthly breakeven | All | P&L breakeven |
 | 5 | Begin ISO 27001 preparation | Person-A + Consultant | Gap analysis and remediation plan |
 | 6 | Evaluate ELCOT space for Phase 3 | Person-A | Site visit and application |
-| 7 | Introduce FinOps consulting as a formal service line | Person-A (FinOps Lead) + Cloud Engineer | First 2–3 FinOps clients |
+| 7 | Introduce Cloud Engineering and FinOps consulting as a formal service line | Person-A (FinOps Lead) + Cloud Engineer | First 2–3 combined-service clients |
 | 8 | Register with STPI (for export benefits) | Person-A + CA | STPI registration |
 
 ### Phase 4: Scale (Month 13–24)

@@ -29,7 +29,7 @@ TechSprint/
 #### 2. **services.html** - Detailed Services Page
 - Comprehensive view of all 6 services:
   - Managed Services
-  - Cloud Engineering & FinOps Consulting (marked as popular)
+   - Cloud Engineering and FinOps consulting (marked as popular)
   - Web Development
   - Digital Marketing
   - Accounting & Bookkeeping Solutions
@@ -131,7 +131,7 @@ TechSprint/
 1. **Page Header** - Service page title
 2. **Service Details** (6 sections)
    - Managed Services
-   - Cloud Engineering & FinOps Consulting
+   - Cloud Engineering and FinOps consulting
    - Web Development
    - Digital Marketing
    - Accounting & Bookkeeping Solutions

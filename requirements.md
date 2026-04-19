@@ -8,7 +8,7 @@ I am looking for a business plan for an IT Enabled Services (ITES) company. The 
 2. The IT company will be set up in **Chennai, Tamil Nadu, India**.
 3. The initial customers are **small and medium-sized companies** from **India, Australia, and the Middle East**.
 4. The company will have **4 partners**:
-   - **Person-A** — manages the operations of the business with a stake (sweat equity) in the company. He will not be able to invest in the company. Person-A will also serve as the **FinOps Lead**, owning the FinOps consulting practice.
+  - **Person-A** — manages the operations of the business with a stake (sweat equity) in the company. He will not be able to invest in the company. Person-A will also serve as the **FinOps Lead**, owning the Cloud Engineering and FinOps consulting practice.
    - **Three investing partners** — will invest in the company with equal stake. They are located in **India, Dubai, and Australia** respectively.
 5. The three investing partners will help bring business to the company from their respective geographies.
 6. The team will be set up in **Chennai, India**.
@@ -17,11 +17,10 @@ I am looking for a business plan for an IT Enabled Services (ITES) company. The 
 ## Services Provided
 1. **IT Maintenance and Support** — ongoing infrastructure and application support services delivered as a managed service with defined SLAs (monitoring, helpdesk, system administration, database administration, security operations, health checks).
 2. **Application Changes** — application maintenance, enhancements, bug fixes, release management, and change management for business applications (.NET, Java, Python, PHP, Node.js, React, Angular, etc.).
-3. **FinOps Consulting** — help SMBs understand, optimise, and govern their cloud spending across AWS, Azure, and GCP (cost assessments, optimisation roadmaps, tagging, budget governance, ongoing advisory). Led by Person-A as FinOps Lead; dedicated FinOps Analyst to be hired once the practice scales (Month 13–18).
-4. **Cloud Engineering Consulting** — help SMBs design, migrate to, and optimise cloud infrastructure (cloud readiness assessments, architecture design, migration, IaC, DevOps/CI/CD, security/compliance, managed cloud operations).
-5. **Web development** - Create web applications through following offerings standard Starter (template-based, strict scope), Standard (some customisation), Pro (integrations, advanced features)
-6. **Accounting and Bookkeeping Services** — Comprehensive accounting and bookkeeping solutions for SMBs, including implementation, customization, integration with other business systems, user training, ongoing support, and consulting to streamline financial operations, generate reports, and ensure compliance.
-7. **E-commerce Platform Services** — End-to-end e-commerce solutions for SMBs across leading platforms (e.g., Shopify, WooCommerce, BigCommerce, Magento), including store setup, theme customization, app development, payment gateway integration, inventory management, SEO optimization, marketing automation, and ongoing maintenance to build and scale online businesses.
+3. **Cloud Engineering and FinOps consulting** — help SMBs design, migrate to, optimise, and govern cloud infrastructure and spend across AWS, Azure, and GCP (cloud readiness assessments, architecture design, migration, IaC, DevOps/CI/CD, security/compliance, managed cloud operations, cost assessments, optimisation roadmaps, tagging, budget governance, ongoing advisory). Led by Person-A as FinOps Lead; dedicated FinOps Analyst to be hired once the practice scales (Month 13–18).
+4. **Web development** - Create web applications through following offerings standard Starter (template-based, strict scope), Standard (some customisation), Pro (integrations, advanced features)
+5. **Accounting and Bookkeeping Services** — Comprehensive accounting and bookkeeping solutions for SMBs, including implementation, customization, integration with other business systems, user training, ongoing support, and consulting to streamline financial operations, generate reports, and ensure compliance.
+6. **E-commerce Platform Services** — End-to-end e-commerce solutions for SMBs across leading platforms (e.g., Shopify, WooCommerce, BigCommerce, Magento), including store setup, theme customization, app development, payment gateway integration, inventory management, SEO optimization, marketing automation, and ongoing maintenance to build and scale online businesses.
 
 ## Accounting and Bookkeeping Services
 - **Implementation Services**: Set up accounting software for new clients, including initial configuration, data migration, and system setup.
@@ -40,7 +39,7 @@ I am looking for a business plan for an IT Enabled Services (ITES) company. The 
 - **Ongoing Maintenance and Support**: Regular updates, security monitoring, content management, and technical support for store operations.
 
 ## Dual Role Structure
-- **Person-A** doubles as **COO + FinOps Lead** — manages day-to-day operations and leads the FinOps consulting practice.
+- **Person-A** doubles as **COO + FinOps Lead** — manages day-to-day operations and leads the Cloud Engineering and FinOps consulting practice.
 - **Application Developers** also serve as **DevOps Engineers** — handling CI/CD pipelines, IaC, containerisation, and deployment automation alongside application development. This is a natural fit for SMB-scale engagements where full-stack delivery skills are valued.
 
 ## Partnership & Equity Structure
@@ -69,8 +68,7 @@ I am looking for a business plan for an IT Enabled Services (ITES) company. The 
 - Include **monthly retainer** model for IT maintenance and support.
 - Include **time & material (T&M)** model for ad-hoc application changes.
 - Include **fixed-fee** model for cloud and FinOps assessments.
-- Include **monthly advisory retainer** for ongoing FinOps consulting.
-- Include **project-based pricing** (fixed-fee + T&M) for cloud engineering consulting.
+- Include **project-based pricing** (fixed-fee + T&M) and **monthly advisory retainer** for Cloud Engineering and FinOps consulting.
 - Include **fixed-fee for implementation + monthly retainer** model for accounting and bookkeeping services (setup, training, and ongoing support).
 - Include **fixed-fee for setup + monthly retainer** model for e-commerce platform services (store launch, customization, and ongoing maintenance) across platforms such as Shopify, WooCommerce, BigCommerce, and Magento.
 - Pricing should leverage India's cost advantage — **20–30% discount to local market rates** in Australia and Middle East.
